@@ -1,5 +1,5 @@
 
-h1{ padding: auto;
+h1{ padding: inherit;
 background-color:transparent;
 align-items: center;
 text-align: center;
@@ -12,7 +12,7 @@ text-align: center;
     margin-top: 100px;
 }
 
-.button-1 {
+.btn-one {
    appearance: none;
   background-color: transparent;
   border: 2px solid #1A1A1A;
@@ -40,23 +40,23 @@ text-align: center;
   will-change: transform;
 }
 
-.button-1:disabled {
+.btn-one:disabled {
   pointer-events: none;
 }
 
-.button-1:hover {
+.btn-one:hover {
 color: #fff;
   background-color: #1A1A1A;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
 
-.button-1:active {
+.btn-one:active {
   box-shadow: none;
   transform: translateY(0);
 }
 
-.button-2 {
+.btn-two {
   appearance: none;
   background-color: transparent;
   border: 2px solid #1A1A1A;
@@ -84,23 +84,23 @@ color: #fff;
   will-change: transform;
 }
 
-.button-2:disabled {
+.btn-two:disabled {
   pointer-events: none;
 }
 
-.button-2:hover {
+.btn-two:hover {
   color: #fff;
   background-color: #1A1A1A;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
 
-.button-2:active {
+.btn-two:active {
   box-shadow: none;
   transform: translateY(0);
 }
 
-.button-3{
+.btn-three{
   appearance: none;
   background-color: transparent;
   border: 2px solid #1A1A1A;
@@ -128,18 +128,18 @@ color: #fff;
   will-change: transform;
 }
 
-.button-3:disabled {
+.btn-three:disabled {
   pointer-events: none;
 }
 
-.button-3:hover {
+.btn-three:hover {
   color: #fff;
   background-color: #1A1A1A;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
 
-.button-3:active {
+.btn-three:active {
   box-shadow: none;
   transform: translateY(0);
 }
